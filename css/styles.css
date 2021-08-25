@@ -159,6 +159,28 @@ ul {
   color: var(--accent-color);
 }
 
+.icon-mail {
+  height: 12px;
+  width: 16px;
+  margin-right: 10px;
+  fill: var(--primary-text-color);
+}
+
+.icon-mail:hover {
+  fill: var(--accent-color);
+}
+
+.icon-tel {
+  height: 16px;
+  width: 10px;
+  margin-right: 10px;
+  fill: var(--primary-text-color);
+}
+
+.icon-tel:hover {
+  fill: var(--accent-color);
+}
+
 /* Hero */
 
 .hero {
