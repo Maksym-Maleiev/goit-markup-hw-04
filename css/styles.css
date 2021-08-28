@@ -230,13 +230,13 @@ ul {
 
   align-items: center;
   text-align: center;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
 
 .hero-button:hover,
 .hero-button:focus {
-  color: #000;
+  background-color: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 /* Section */
@@ -265,7 +265,7 @@ ul {
 
 .feature-list .item {
   width: 270px;
-  height: 101px;
+  height: 251px;
   margin-right: 30px;
 }
 
@@ -293,16 +293,13 @@ ul {
   line-height: 1.7;
 }
 
-.feature-list-icons {
-  display: flex;
-}
-
 .feature-icons {
-  display: inline-block;
+  display: flex;
   width: 270px;
   height: 120px;
+  align-items: center;
+  justify-content: center;
 
-  padding: 25px 100px;
   margin-bottom: 30px;
   margin-right: 30px;
 
@@ -312,10 +309,6 @@ ul {
 
 .feature-icons:last-child {
   margin-right: 0;
-}
-
-.feature-icons .icon {
-  align-items: center;
 }
 
 /* Work */
@@ -430,11 +423,10 @@ ul {
 }
 
 .clients-link {
-  display: inline-block;
+  display: flex;
   width: 170px;
   height: 92px;
 
-  padding: 16px 32px;
   align-items: center;
   justify-content: center;
   border: 1px solid #afb1b8;
